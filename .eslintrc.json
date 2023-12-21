@@ -1,0 +1,90 @@
+{
+  "root": true,
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "airbnb",
+    "airbnb-typescript",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:storybook/recommended"
+  ],
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module",
+    "project": [
+      "./tsconfig.json"
+    ]
+  },
+  "ignorePatterns": [
+    ".eslintrc.json",
+    "postcss.config.js",
+    "**/*.d.ts"
+  ],
+  "plugins": [
+    "react",
+    "@typescript-eslint"
+  ],
+  "settings": {
+    "react": {
+      "version": "999.999.999"
+    }
+  },
+  "rules": {
+    "react/react-in-jsx-scope": "off",
+    "import/prefer-default-export": "off",
+    "react/function-component-definition": [
+      0
+    ],
+    "jsx-a11y/no-noninteractive-element-interactions": [
+      0
+    ],
+    "jsx-a11y/click-events-have-key-events": [
+      0
+    ],
+    "no-unused-vars": "error",
+    "react/jsx-props-no-spreading": "off",
+    "@typescript-eslint/no-throw-literal": "off",
+    "indent": "off",
+    "@typescript-eslint/indent": [
+      "error",
+      2
+    ],
+    "no-trailing-spaces": "off",
+    "consistent-return": "off",
+    "@typescript-eslint/ban-ts-comment": "off",
+    "no-param-reassign": "off",
+    "@typescript-eslint/comma-dangle": "off",
+    "jsx-a11y/no-static-element-interactions": [
+      0
+    ],
+    "@typescript-eslint/no-empty-interface": "off",
+    "@typescript-eslint/no-shadow": "off",
+    "class-methods-use-this": "off",
+    "import/extensions": "off",
+    "react/prop-types": "off",
+    "linebreak-style": "off",
+    "react/no-array-index-key": "off",
+    "react/require-default-props": "off",
+    "import/no-cycle": "off",
+    "@typescript-eslint/triple-slash-reference": "off",
+    "import/no-extraneous-dependencies": "off",
+    "react/jsx-no-bind": "off",
+    "import/export": "off",
+    "radix": "off",
+    "default-case": "off",
+    "no-alert": "off",
+    "react/no-unstable-nested-components": "off",
+    "@typescript-eslint/no-use-before-define": "off",
+    "react/jsx-no-useless-fragment": "off",
+    "react/destructuring-assignment": "off",
+    "no-plusplus": "off",
+    "eqeqeq": "off",
+    "no-continue": "off",
+    "@typescript-eslint/naming-convention": "off",
+    "no-underscore-dangle": "off",
+    "@typescript-eslint/no-useless-constructor": "off",
+    "max-classes-per-file": "off"
+  }
+}
